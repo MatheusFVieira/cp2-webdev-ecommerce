@@ -34,7 +34,7 @@ export default function ProductCard({ id, title, price, image, rating }) {
         </div>
 
         <Link to={`/produto/${id}`} className="mt-auto">
-          <div className="text-center p-2 bg-blue-600 text-white rounded font-medium hover:bg-blue-700">
+          <div className="text-center p-2 bg-yellow-400 text-white rounded font-medium hover:bg-yellow-600">
             Ver Detalhes
           </div>
         </Link>
